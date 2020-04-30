@@ -137,7 +137,17 @@ a:hover{
     width:200px;
     list-style-type:none;
 }
+.nestlist li{
+    display:block;
+    color:white;
+    text-decoration:none;
+}
 
+.nestlist li:hover{
+    color:black;
+    background-color:white;
+    text-decoration: none;
+}
 .navlist li{
     cursor:pointer;
 }
