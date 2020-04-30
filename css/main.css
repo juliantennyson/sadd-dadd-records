@@ -1,3 +1,38 @@
+@media only screen and (max-width: 550px) {
+    
+.desktopli{
+        display:none !important;
+    }
+    
+.mobileli{
+        display:inline;
+    }
+    
+    #logo{
+        width:100% !important;
+    }
+    
+    .navlist li{
+        display:block;
+        width:100%;
+        font-size:2em;
+    }
+    
+    .list-middot > li:not(:last-child)::after {
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 550px){
+.mobileli{
+    display:none !important;
+}
+.desktopli{
+    display:inline;
+}
+}
+
+
 #logo{
     margin-left: 0 auto;
     display:block;
@@ -146,3 +181,4 @@ hr{
 .artistpic .specialink{
     background-color:lightcoral;
 }
+
