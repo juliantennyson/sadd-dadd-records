@@ -193,10 +193,10 @@ hr{
 }
 
 .RIYL{
-    background-color:lightgray;
+    border: 2px dotted lightgray;
     display:block;
-    padding:5px;
-    margin:5px;
+    padding:15px;
+
     
 }
 
